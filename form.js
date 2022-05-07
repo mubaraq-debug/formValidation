@@ -1,5 +1,8 @@
-function prt (){
-    console.log('you forgot your password?');
-}
+var button = document.getElementById('fgt').addEventListener('click', prt); 
+ function prt(e) {
+     alert('you forgot your password again');
+ }
 
-document.querySelector('#fgt').addEventListener('onclick', prt); 
+ document.getElementById('submit-btn').addEventListener('click', ()=> {
+     console.log('you submitted your details succesfully');
+ })
